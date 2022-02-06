@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container::before,
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col20{
+    width: 20%;
+    float: left;
+}
+
+.col25{
+    width: 25%;
+    float: left;
+}
+
+.col33{
+    width: 33.33%;
+    float: left;
+}
+
+.col50{
+    width: 50%;
+    float: left;
+}
+
+/* header part css start */
+
+.logo{
+    float: left;
+    margin: 30px 0;
+}
+
+.menu{
+    float: right;
+    margin: 20px 0;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #161616;
+}
+.menu ul li a:hover{
+    color: #15a4fa;
+    
+}
+/* header part css end */
+
+/* banner part css start */
+
+.banner{
+    background-image: url(media/banner.jpg);
+    height: 800px;
+    background-size: cover;
+}
+
+.banner_content{
+    text-align: center;
+}
+
+.banner_content h1{
+    margin: 220px 0 35px 0;
+    color: #fff;
+    font-size: 61px;
+    font-weight: 600px;
+    letter-spacing: 8px;
+}
+
+.banner_content p{
+    font-size: 15px;
+    color: #999;
+}
+
+.btn{
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    padding: 20px 35px;
+}
+
+.btn a{
+    color: #fff;
+    font-size: 18px;
+}
+
+/* banner part css end */
+
+/* about part css start */
+
+.about{
+    background-color: #f6f9f9;
+    text-align: center;
+}
+
+.about_content h3{
+    font-size: 40px;
+    color: #2d3950;
+    margin: 80px 0 30px 0;
+}
+
+.about_content p{
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 112px;
+}
+
+/* about part css end */
+
+/* services part start */
+
+.services{
+    background-color: #fff;
+    text-align: center;
+}
+
+.services_content .icon{
+    margin: 60px 0 30px 0;
+}
+
+.services_content .sub_title{
+    margin-bottom: 70px;
+}
+
+/* services part end */
+
+/* gallery part css start */
+
+.gallery{
+    background-color: #f6f9f9;
+    text-align: center;
+}
+
+.gallery_text h3{
+    font-size: 41px;
+    color: #2d3950;
+}
+
+.gallery_text p{
+    font-size: 15px;
+    color: #999;
+}
+
+.cards .col33{
+    padding: 15px;
+}
+
+
+
+/* gallery part css end */
+
+/* footer part css start */
+
+.footer{
+    background-color: #fff;
+}
+
+.footer_text{
+    float: left;
+}
+
+
+
+
+.footer_icons{
+    float: right;
+}
+
+.footer_icons ul li{
+    display: inline-block;
+    border: 1px solid #15a4fa;
+    padding: 20px;
+    background-color: #15a4fa;
+    margin: 15px;
+}
+
+.footer_icons ul li i{
+    color: #fff;
+    font-size: 28px;
+}
+
+
+/* footer part css end */
